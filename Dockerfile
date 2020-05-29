@@ -1,3 +1,3 @@
 FROM docker:dind
 
-CMD docker version
+CMD docker  -v /var/run/docker.sock:/var/run/docker.sock version
